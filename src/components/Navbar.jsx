@@ -2,7 +2,7 @@ import { Stack } from '@mui/material'
 import React from 'react'
 import SearchBar from './SearchBar'
 import {Link} from 'react-router-dom'
-import { logo } from '../utils/constants'
+import  logo  from '../utils/youtube.png'
 
 const  Navbar = () => {
   return (
