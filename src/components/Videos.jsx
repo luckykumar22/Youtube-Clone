@@ -5,7 +5,7 @@ import { ChannelCard, Loader, VideoCard } from "./";
 
 const Videos = ({ videos, direction }) => {
   console.log(videos)
-  // if(!videos?.length) return <Loader />;
+  if(!videos?.length) return <Loader />;
   
   return (
     <Stack direction={direction || "row"} flexWrap="wrap" justifyContent="start" alignItems="start" gap={2}>
